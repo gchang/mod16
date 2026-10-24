@@ -52,6 +52,8 @@ Documentation
 
 - [An example of how to generate ET simulations using MODIS MOD16 Collection 6.1](https://github.com/arthur-e/MOD16/blob/master/notebooks/MOD16_Forward_Run_example.ipynb)
 
+The forward-run notebook reads its input from the `DRIVERS_HDF5` parameter (default: `VNP16_MOD16_tower_site_latent_heat_and_drivers_v7.h5` from [Zenodo record 13988806](https://doi.org/10.5281/zenodo.13988806), in the working directory); set it with, e.g., `papermill MOD16_Forward_Run_example.ipynb out.ipynb -p DRIVERS_HDF5 /path/to/file.h5`.
+
 
 Citation
 -----------------
